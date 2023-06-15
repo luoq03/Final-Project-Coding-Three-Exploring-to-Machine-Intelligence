@@ -7,7 +7,7 @@
 
 ## Inspiration ##
 
-In my view, generating Eastern and Western handwriting fonts and painting images through Deep Convolutional Generative Adversarial Networks (DCGAN) is an innovative and inspiring idea. The use of this technology not only explores the infinite possibilities in the field of art, but also delves into two distinctly different cultural expressions.
+In my view, generating Eastern and Western handwriting fonts and painting images through Deep Convolutional Generative Adversarial Networks is an innovative and inspiring idea. The use of this technology not only explores the infinite possibilities in the field of art, but also delves into two distinctly different cultural expressions.
 
 Take fonts as an example, each font contains cultural characteristics and historical accumulation. Western fonts attract people with their unique line aesthetics and typography design, while Eastern fonts show the strength and fluidity of strokes. If we could use DCGAN to learn and generate these two styles of fonts, the results might bring a completely new artistic experience. It could be a novel font style or a modern interpretation of traditional culture.
 
