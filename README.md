@@ -38,6 +38,7 @@ Epoch 70/70
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/533d027f-4faa-4c4e-9734-5acc4639e2bf)
 
 Comparison between Original Dataset and Generated Data
+
 ![download (12)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/1884c9ba-bdb7-4a8c-958b-3d8d03e44e84)
 ![download (13)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/ccec5214-3d7a-4c79-aea2-43f2cdd72bcd)
 
