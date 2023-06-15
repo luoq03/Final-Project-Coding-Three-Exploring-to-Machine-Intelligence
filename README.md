@@ -1,14 +1,6 @@
 # Final-Project-Coding-Three-Exploring-to-Machine-Intelligence
-
-![246197723-27655136-ea99-4839-8a31-866b611d93d4](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/eafbc78f-b49e-45b7-9fe3-2fa711d1d662)
-![246197711-6a59fb14-2000-4432-8b99-079f14b3c5ff](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/dfc80422-ba93-4dfc-9613-1b29c0ddad6b)
-![246186222-d1b2f52a-6756-4baf-a937-b94e6e8102f9](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/bb4ba9f8-c50b-4fda-8ab6-99dd3a798090)
-![246186214-d7c12d33-cb71-41f0-9777-a3a7ce470ea9](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/96c438a0-2371-42cf-86dd-0bd62ca79c3d)
-![246186199-480a4fec-e967-4358-b25e-c979ecc7a2f9](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/93c6aa44-e1aa-4763-8db5-ef73798fdf99)
-![246178218-2022983e-503c-4d72-8313-d382beb7a601](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d9919615-fa08-4a3f-9696-24a06d8b1a6f)
-![246178201-737c4cb6-b04a-4298-9964-72b1372c2d84](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/0513e635-5ee2-494d-990b-69e11eae6af3)
-![246178188-dae8cab4-862c-4b9f-b8ca-1785c5ec3471](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/c7360fea-79f8-4524-861d-91aa4323d2f6)
-
+![download (12)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/1884c9ba-bdb7-4a8c-958b-3d8d03e44e84)
+![download (13)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/ccec5214-3d7a-4c79-aea2-43f2cdd72bcd)
 
 
 ## Work 1/4 Generate cursive font-DCGAN ##
