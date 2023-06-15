@@ -1,13 +1,10 @@
 # Final-Project-Coding-Three-Exploring-to-Machine-Intelligence
 
-![download (14)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/202ac172-e3c8-4294-ba2b-86c6622c8f30)
-![download (15)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/63919239-4662-406d-9693-c0a85cee59fe)
-![download (16)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2a1344c5-6ac3-45bf-b7fb-8b298ad2cc7e)
-![download (17)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/33361e5c-3ceb-47d6-97c3-81e85a27a6e2)
-![download (18)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3f8e2057-ea8a-4524-9906-6e017e1e5078)
-![download (19)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fce579bc-ff56-49e2-9af4-0428ade622e5)
 
-## Work 1/4 Generate cursive font-DCGAN ##
+
+
+
+## Work 1/4 Generate cursive font - DCGAN ##
 
 Epoch 10/70
 
@@ -42,7 +39,7 @@ Comparison between Original Dataset and Generated Data
 ![download (12)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/1884c9ba-bdb7-4a8c-958b-3d8d03e44e84)
 ![download (13)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/ccec5214-3d7a-4c79-aea2-43f2cdd72bcd)
 
-## Work 2/4 Generate Oriental Aesthetic Landscape Painting-DCGAN ##
+## Work 2/4 Generate Oriental Aesthetic Landscape Painting - DCGAN ##
 
 Epoch 10/120
 
@@ -93,7 +90,12 @@ Epoch 120/120
 
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/81a97596-5a95-4e9e-8a45-c3bc3871529d)
 
-## Work 3/4 Generate English Handwritten Font-DCGAN ##
+Comparison between Original Dataset and Generated Data
+
+![download (14)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/202ac172-e3c8-4294-ba2b-86c6622c8f30)
+![download (15)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/63919239-4662-406d-9693-c0a85cee59fe)
+
+## Work 3/4 Generate English Handwritten Font - DCGAN ##
 
 Epoch 10/80
 
@@ -127,4 +129,54 @@ Epoch 80/80
 
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3d008814-cd39-4fcd-89d8-93c0009e89f4)
 
+Comparison between Original Dataset and Generated Data
 
+![download (16)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2a1344c5-6ac3-45bf-b7fb-8b298ad2cc7e)
+![download (17)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/33361e5c-3ceb-47d6-97c3-81e85a27a6e2)
+
+## Work 4/4 Generate Oil Painting Color Landscape Painting - DCGAN ##
+
+Epoch 10/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/b0909048-b66e-4bfe-8905-3d49f08941a6)
+
+Epoch 20/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2320eab7-037e-4d8f-b249-7d13c4062fd0)
+
+Epoch 30/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/4634f74f-0f65-4af0-bd36-fb0dc24f858b)
+
+Epoch 40/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/47dfcd09-c105-4c18-8be4-8157b935c250)
+
+Epoch 50/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/6b433954-4a88-4584-aea0-5f9e29529408)
+
+Epoch 60/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/8af1671f-36a1-466c-b11b-d10a763259ef)
+
+Epoch 70/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/b72dd803-9caf-4678-8361-0a719b3145fa)
+
+Epoch 80/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/1df3a3d9-a464-4c14-8158-c74122152e92)
+
+Epoch 90/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/8bcabb7c-9780-4469-87a7-58b3b5aa578c)
+
+Epoch 100/100
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/c6207a1f-dbd3-4f20-b6e0-9df18fd3be32)
+
+Comparison between Original Dataset and Generated Data
+
+![download (18)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3f8e2057-ea8a-4524-9906-6e017e1e5078)
+![download (19)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fce579bc-ff56-49e2-9af4-0428ade622e5)
