@@ -87,3 +87,39 @@ Epoch 110/120
 Epoch 120/120
 
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/81a97596-5a95-4e9e-8a45-c3bc3871529d)
+
+## Work 3/4 Generate English Handwritten Font-DCGAN ##
+
+Epoch 10/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/f2b19fb0-5974-4001-a6d5-a104d7d15512)
+
+Epoch 20/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/133ae899-04f0-4797-9ac0-f9b91564c4ba)
+
+Epoch 30/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/56f9ebff-d44b-4961-ad7b-1706c4b64419)
+
+Epoch 40/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/8d5683e7-34a8-463c-93bc-a20e6444200c)
+
+Epoch 50/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/b0c7eb4b-b404-4f5d-a173-d4cd2a3df6ef)
+
+Epoch 60/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/e88c3a7c-ddc3-4f79-a3e5-51a177005068)
+
+Epoch 70/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/c34fff4f-454a-43ce-9995-3edba26518d4)
+
+Epoch 80/80
+
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3d008814-cd39-4fcd-89d8-93c0009e89f4)
+
+
