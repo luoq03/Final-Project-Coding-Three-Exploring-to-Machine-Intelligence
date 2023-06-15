@@ -17,6 +17,25 @@ In addition, this technology may also inspire our thinking about artificial inte
 
 In conclusion, generating Eastern and Western handwriting fonts and painting images through DCGAN is not only a project with practical application value, but also a challenge and expansion of our own cognition, it's an interesting experiment where art and technology intersect.
 
+##  Main Code Structure and Explanation ##
+
+''' import os
+import numpy as np
+import matplotlib.pyplot as plt
+import warnings
+from tqdm.notebook import tqdm
+
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras.preprocessing.image import load_img, array_to_img
+from tensorflow.keras.models import Sequential, Model
+from tensorflow.keras import layers
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import BinaryCrossentropy
+
+warnings.filterwarnings('ignore')
+ '''
+
 ## Work 1/4 Generate Cursive Font  ##
 
 Epoch 10/70
