@@ -35,14 +35,13 @@ from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras import layers
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import BinaryCrossentropy
-warnings.filterwarnings('ignore')
 ```
 
 ### Load the Dataset ###
 
 create the base directory
 ```
-BASE_DIR = '/kaggle/input/chinese-calligraphy-styles-by-calligraphers/data/data/train/mf/'
+BASE_DIR = '/kaggle/input/newnewnewnew/dcgan/'
 ```
 
 create a list which will contain all the dataset images
@@ -57,16 +56,22 @@ for image_name in os.listdir(BASE_DIR):
 ### Visualize the Image Dataset ###
 
 ```
-plt.figure(figsize=(20, 20))
-temp_images = image_paths[:49]
+# to display grid of images (5x5)
+plt.figure(figsize=(30, 30))
+temp_images = image_paths[:25]
 index = 1
+
 for image_path in temp_images:
-    plt.subplot(7, 7, index)
+    plt.subplot(5, 5, index)
+    # load the image
     img = load_img(image_path)
+    # convert to numpy array
     img = np.array(img)
+    # show the image
     plt.imshow(img)
     plt.axis('off')
-    index += 1 
+    # increment the index for next image
+    index += 1
 ```
 
 ### Preprocess the Image Dataset ###
@@ -234,7 +239,8 @@ compile the DCGAN model
 ```
 D_LR = 0.0001 
 G_LR = 0.0003
-dcgan.compile(g_optimizer=Adam(learning_rate=G_LR, beta_1=0.5), d_optimizer=Adam(learning_rate=D_LR, beta_1=0.5), loss_fn=BinaryCrossentropy())
+dcgan.compile(g_optimizer=RMSprop(learning_rate=G_LR), d_optimizer=RMSprop(learning_rate=D_LR),
+loss_fn=MeanSquaredError())
 ```
 ### Training the DCGAN model ###
 ```
