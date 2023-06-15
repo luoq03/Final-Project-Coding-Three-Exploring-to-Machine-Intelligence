@@ -103,7 +103,7 @@ Epoch 120/120
 
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/81a97596-5a95-4e9e-8a45-c3bc3871529d)
 
-**Comparison between Original Dataset and Generated Data**
+### **Comparison between Original Dataset and Generated Data** ###
 
 ![download (14)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/202ac172-e3c8-4294-ba2b-86c6622c8f30)
 ![download (15)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/63919239-4662-406d-9693-c0a85cee59fe)
@@ -142,7 +142,7 @@ Epoch 80/80
 
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3d008814-cd39-4fcd-89d8-93c0009e89f4)
 
-**Comparison between Original Dataset and Generated Data**
+### **Comparison between Original Dataset and Generated Data** ###
 
 ![download (16)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2a1344c5-6ac3-45bf-b7fb-8b298ad2cc7e)
 ![download (17)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/33361e5c-3ceb-47d6-97c3-81e85a27a6e2)
@@ -189,7 +189,7 @@ Epoch 100/100
 
 ![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/c6207a1f-dbd3-4f20-b6e0-9df18fd3be32)
 
-**Comparison between Original Dataset and Generated Data**
+### **Comparison between Original Dataset and Generated Data** ###
 
 ![download (18)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3f8e2057-ea8a-4524-9906-6e017e1e5078)
 ![download (19)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fce579bc-ff56-49e2-9af4-0428ade622e5)
