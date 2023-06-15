@@ -19,7 +19,7 @@ In conclusion, generating Eastern and Western handwriting fonts and painting ima
 
 ##  Main Code Structure and Explanation ##
 
-''' import os
+``` import os
 import numpy as np
 import matplotlib.pyplot as plt
 import warnings
@@ -33,8 +33,8 @@ from tensorflow.keras import layers
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import BinaryCrossentropy
 
-warnings.filterwarnings('ignore')
- '''
+warnings.filterwarnings('ignore')  ```
+
 
 ## Work 1/4 Generate Cursive Font  ##
 
