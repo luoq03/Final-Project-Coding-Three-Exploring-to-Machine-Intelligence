@@ -130,6 +130,8 @@ model.add(layers.Conv2DTranspose(64, (4, 4), strides=(2, 2), padding='same', ker
 model.add(layers.ReLU())
 model.add(layers.Conv2D(CHANNELS, (4, 4), padding='same', kernel_initializer=WEIGHT_INIT, activation='tanh'))
 ```
+![3afb4c0a29e05c80f6ad102767e13c0](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/80925c69-f6aa-4658-a7d6-9681af243d71)
+
 Discriminator model : classify the image from the generator to check whether it real (or) fake images
 ```
 model = Sequential(name='discriminator')
@@ -144,6 +146,8 @@ model.add(layers.LeakyReLU(alpha=0.2))
 model.add(layers.Flatten())
 model.add(layers.Dense(1))
 ```
+![fab7b6d92b75af8c8f8a138219da6f9](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/917115dc-cb51-471e-bc9d-2379e4a760c0)
+
 ### Create DCGAN ###
 Train both the generator and discriminator models at same time and update the weights with customized loss functions
 ```
