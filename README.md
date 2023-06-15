@@ -19,6 +19,7 @@ In conclusion, generating Eastern and Western handwriting fonts and painting ima
 
 ## Dataset Information ##
 ![536239f47f1ff43b2149aeaa258d0ff](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/4ec35d9e-1b4b-4e68-b41a-1ad443144224)
+![5068f60fb6f46a3116f4635324b2128](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/9710e815-58a2-45a5-87bb-0e66f00aa365)
 
 ##  Main Code Structure and Explanation ##
 
