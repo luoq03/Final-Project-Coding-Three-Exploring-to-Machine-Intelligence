@@ -39,12 +39,12 @@ from tensorflow.keras.losses import BinaryCrossentropy
 
 ### Load the Dataset ###
 
-create the base directory
+Create the base directory
 ```
 BASE_DIR = '/kaggle/input/newnewnewnew/dcgan/'
 ```
 
-create a list which will contain all the dataset images
+Create a list which will contain all the dataset images
 
 ```
 image_paths = []
@@ -79,21 +79,21 @@ for image_path in temp_images:
 train_images = [np.array(load_img(path)) for path in tqdm(image_paths)]
 train_images = np.array(train_images)
 ```
-see the shape of the image
+See the shape of the image
 ```
 train_images[0].shape
 ```
-reshape the numpy array
+Reshape the numpy array
 ```
 train_images = train_images.reshape(train_images.shape[0], 64, 64, 3).astype('float32')
 ```
-normalize the image
+Normalize the image
 ```
 train_images = (train_images - 127.5) / 127.5
 ```
 
 ### Create Generator & Discriminator Models ###
-initialize the required values to the variables
+Initialize the required values to the variables
 ```
 LATENT_DIM = 100
 WEIGHT_INIT = keras.initializers.RandomNormal(mean=0.0, stddev=0.02)
@@ -128,7 +128,7 @@ model.add(layers.Flatten())
 model.add(layers.Dense(1))
 ```
 ### Create DCGAN ###
-train both the generator and discriminator models at same time and update the weights with customized loss functions
+Train both the generator and discriminator models at same time and update the weights with customized loss functions
 ```
 class DCGAN(keras.Model):
     def __init__(self, generator, discriminator, latent_dim):
@@ -203,7 +203,7 @@ class DCGAN(keras.Model):
         
         return {'d_loss': self.d_loss_metric.result(), 'g_loss': self.g_loss_metric.result()}
 ```
- plot some images for each epoch
+ Plot some images for each epoch
 ```
 class DCGANMonitor(keras.callbacks.Callback):
     def __init__(self, num_imgs=25, latent_dim=100):
@@ -231,11 +231,11 @@ class DCGANMonitor(keras.callbacks.Callback):
     def on_train_end(self, logs=None):
         self.model.generator.save('generator.h5')
 ```
-initialize the DCGAN model 
+Initialize the DCGAN model 
 ```
 dcgan = DCGAN(generator=generator, discriminator=discriminator, latent_dim=LATENT_DIM)
 ```
-compile the DCGAN model
+Compile the DCGAN model
 ```
 D_LR = 0.0001 
 G_LR = 0.0003
@@ -439,7 +439,7 @@ Epoch 100/100
 ![download (18)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/3f8e2057-ea8a-4524-9906-6e017e1e5078)
 ![download (19)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fce579bc-ff56-49e2-9af4-0428ade622e5)
 
-## Generate New Images ##
+## New images using trained dcgan model ##
 
 ![246211005-f7870e9a-92ca-4a31-b482-a071f0989116 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/8ee4162f-aff9-49ed-82cf-fa082ac53f27)
 ![246210933-27ee36fd-d0e0-408d-8a9f-258b72692683 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fc0f206c-25d0-4592-af0c-4c99be29ec21)
