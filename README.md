@@ -17,7 +17,7 @@ In addition, this technology may also inspire our thinking about artificial inte
 
 In conclusion, generating Eastern and Western handwriting fonts and painting images through DCGAN is not only a project with practical application value, but also a challenge and expansion of our own cognition, it's an interesting experiment where art and technology intersect.
 
-## Work 1/4 Generate cursive font - DCGAN ##
+## Work 1/4 Generate cursive font  ##
 
 Epoch 10/70
 
@@ -52,7 +52,7 @@ Comparison between Original Dataset and Generated Data
 ![download (12)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/1884c9ba-bdb7-4a8c-958b-3d8d03e44e84)
 ![download (13)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/ccec5214-3d7a-4c79-aea2-43f2cdd72bcd)
 
-## Work 2/4 Generate Oriental Aesthetic Landscape Painting - DCGAN ##
+## Work 2/4 Generate Oriental Aesthetic Landscape Painting  ##
 
 Epoch 10/120
 
@@ -108,7 +108,7 @@ Comparison between Original Dataset and Generated Data
 ![download (14)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/202ac172-e3c8-4294-ba2b-86c6622c8f30)
 ![download (15)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/63919239-4662-406d-9693-c0a85cee59fe)
 
-## Work 3/4 Generate English Handwritten Font - DCGAN ##
+## Work 3/4 Generate English Handwritten Font  ##
 
 Epoch 10/80
 
@@ -147,7 +147,7 @@ Comparison between Original Dataset and Generated Data
 ![download (16)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2a1344c5-6ac3-45bf-b7fb-8b298ad2cc7e)
 ![download (17)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/33361e5c-3ceb-47d6-97c3-81e85a27a6e2)
 
-## Work 4/4 Generate Oil Painting Color Landscape Painting - DCGAN ##
+## Work 4/4 Generate Oil Painting Color Landscape Painting  ##
 
 Epoch 10/100
 
