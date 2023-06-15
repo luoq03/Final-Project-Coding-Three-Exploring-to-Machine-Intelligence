@@ -19,6 +19,8 @@ In conclusion, generating Eastern and Western handwriting fonts and painting ima
 
 ##  Main Code Structure and Explanation ##
 
+### Import necessary libraries ###
+
 ``` import os
 import numpy as np
 import matplotlib.pyplot as plt
