@@ -2,6 +2,7 @@
 
 ![download (20)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/b88c359e-9f42-44ea-b345-f33995f59690)
 ![download (21)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fba081ac-eb42-47f8-97fa-656016018cb7)
+
 ![download (22)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/14b7a931-d0fd-4196-a812-718701f2ee5c)
 ![download (23)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/f97d07af-5e5a-48f5-bbc5-93b44e4582c2)
 
@@ -458,6 +459,7 @@ Epoch 100/100
 ## New images using trained dcgan model ##
 ![246210840-bb484e6e-1103-41c2-b254-fe063fefe243 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/c68f3812-ca8c-4b33-957e-28b5b32cb608)
 ![246210886-fc97ff28-d646-475a-8388-206e898f08ea (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/66f756d1-433e-487b-b9be-00a8b736b02e)
+
 ![246210933-27ee36fd-d0e0-408d-8a9f-258b72692683 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fc0f206c-25d0-4592-af0c-4c99be29ec21)
 ![246211005-f7870e9a-92ca-4a31-b482-a071f0989116 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/8ee4162f-aff9-49ed-82cf-fa082ac53f27)
 
