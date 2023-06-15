@@ -37,8 +37,10 @@ from tensorflow.keras.losses import BinaryCrossentropy
 
 warnings.filterwarnings('ignore')
 ```
-
-
+### Define the path for the training dataset ###
+```
+BASE_DIR = '/kaggle/input/chinese-calligraphy-styles-by-calligraphers/data/data/train/mf/'
+```
 ## Work 1/4 Generate Cursive Font  ##
 
 Epoch 10/70
