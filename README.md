@@ -33,7 +33,8 @@ from tensorflow.keras import layers
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import BinaryCrossentropy
 
-warnings.filterwarnings('ignore')  ```
+warnings.filterwarnings('ignore')
+```
 
 
 ## Work 1/4 Generate Cursive Font  ##
