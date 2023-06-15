@@ -1,11 +1,17 @@
 # Final-Project-Coding-Three-Exploring-to-Machine-Intelligence
+
+
 ![download (6)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/480a4fec-e967-4358-b25e-c979ecc7a2f9)
 ![download (7)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d7c12d33-cb71-41f0-9777-a3a7ce470ea9)
 ![download (8)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d1b2f52a-6756-4baf-a937-b94e6e8102f9)
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/f38420c4-c0bf-45f5-b0fc-eca82d75fe6e)
+
 
 ![download (3)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/dae8cab4-862c-4b9f-b8ca-1785c5ec3471)
 ![download (4)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/737c4cb6-b04a-4298-9964-72b1372c2d84)
 ![download (5)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2022983e-503c-4d72-8313-d382beb7a601)
+![image](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/af43df23-1ef7-43f2-a171-6ff5f25c59cd)
+
 
 ## Work 1/4 Generate cursive font-DCGAN ##
 
