@@ -1,4 +1,7 @@
 # Final-Project-Coding-Three-Exploring-to-Machine-Intelligence
+![download (6)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/480a4fec-e967-4358-b25e-c979ecc7a2f9)
+![download (7)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d7c12d33-cb71-41f0-9777-a3a7ce470ea9)
+![download (8)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d1b2f52a-6756-4baf-a937-b94e6e8102f9)
 
 ![download (3)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/dae8cab4-862c-4b9f-b8ca-1785c5ec3471)
 ![download (4)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/737c4cb6-b04a-4298-9964-72b1372c2d84)
