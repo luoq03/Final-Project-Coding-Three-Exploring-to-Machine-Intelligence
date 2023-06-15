@@ -19,6 +19,18 @@ In conclusion, generating Eastern and Western handwriting fonts and painting ima
 
 ## Dataset Information ##
 
+### URL for reference dataset ###
+
+https://www.kaggle.com/datasets/myzhang1029/chinese-landscape-painting-dataset
+
+https://www.kaggle.com/datasets/bai224/chinese-calligraphy-characters-image-set
+
+https://www.kaggle.com/datasets/tejasreddy/iam-handwriting-top50
+
+https://www.kaggle.com/datasets/robgonsalves/impressionistlandscapespaintings
+
+### Screenshot of the dataset modified by myself ###
+
 ![WeChat Photo Editor_20230616002030 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2cdb505e-6845-477c-8442-59a18821d2f4)
 ![WeChat Photo Editor_20230616001841 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d1e7353c-a7af-4bbc-922c-b57dbc880b26)
 
