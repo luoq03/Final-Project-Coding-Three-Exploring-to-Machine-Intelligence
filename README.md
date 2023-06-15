@@ -17,9 +17,11 @@ In addition, this technology may also inspire our thinking about artificial inte
 
 In conclusion, generating Eastern and Western handwriting fonts and painting images through DCGAN is not only a project with practical application value, but also a challenge and expansion of our own cognition, it's an interesting experiment where art and technology intersect.
 
+## Dataset Information ##
+
 ##  Main Code Structure and Explanation ##
 
-### Import necessary libraries ###
+###  Import necessary libraries and modules ###
 
 ``` import os
 import numpy as np
@@ -37,10 +39,126 @@ from tensorflow.keras.losses import BinaryCrossentropy
 
 warnings.filterwarnings('ignore')
 ```
-### Define the path for the training dataset ###
+### Load the Dataset ###
+create the base directory
 ```
 BASE_DIR = '/kaggle/input/chinese-calligraphy-styles-by-calligraphers/data/data/train/mf/'
+image_paths = []
+for image_name in os.listdir(BASE_DIR):
+    image_path = os.path.join(BASE_DIR, image_name)
+    image_paths.append(image_path)
 ```
+### Display the First 49 Images ###
+```
+plt.figure(figsize=(20, 20))
+temp_images = image_paths[:49]
+index = 1
+for image_path in temp_images:
+    plt.subplot(7, 7, index)
+    img = load_img(image_path)
+    img = np.array(img)
+    plt.imshow(img)
+    plt.axis('off')
+    index += 1 
+```
+### Load and Normalize Images ###
+```
+train_images = [np.array(load_img(path)) for path in tqdm(image_paths)]
+train_images = np.array(train_images)
+
+```
+### Define the Generator Model ###
+```
+LATENT_DIM = 100
+WEIGHT_INIT = keras.initializers.RandomNormal(mean=0.0, stddev=0.02)
+CHANNELS = 3 
+
+model = Sequential(name='generator')
+model.add(layers.Dense(8 * 8 * 512, input_dim=LATENT_DIM))
+model.add(layers.ReLU())
+model.add(layers.Reshape((8, 8, 512)))
+model.add(layers.Conv2DTranspose(256, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
+model.add(layers.ReLU())
+model.add(layers.Conv2DTranspose(128, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
+model.add(layers.ReLU())
+model.add(layers.Conv2DTranspose(64, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
+model.add(layers.ReLU())
+model.add(layers.Conv2D(CHANNELS, (4, 4), padding='same', kernel_initializer=WEIGHT_INIT, activation='tanh'))
+```
+
+### Define the Discriminator Model ###
+```
+model = Sequential(name='discriminator')
+model.add(layers.Conv2D(64, (4, 4), strides=(2, 2), padding='same', input_shape=[64, 64, CHANNELS], kernel_initializer=WEIGHT_INIT))
+model.add(layers.LeakyReLU(alpha=0.2))
+model.add(layers.Conv2D(128, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
+model.add(layers.LeakyReLU(alpha=0.2))
+model.add(layers.Conv2D(256, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
+model.add(layers.LeakyReLU(alpha=0.2))
+model.add(layers.Conv2D(512, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
+model.add(layers.LeakyReLU(alpha=0.2))
+model.add(layers.Flatten())
+model.add(layers.Dense(1))
+```
+### Defining the DCGAN model ###
+```
+generator_optimizer = Adam(learning_rate=0.0002, beta_1=0.5)
+discriminator_optimizer = Adam(learning_rate=0.0002, beta_1=0.5)
+loss = BinaryCrossentropy()
+
+generator.trainable = False
+inputs = keras.Input(shape=(LATENT_DIM, ))
+x = generator(inputs, training=False)
+outputs = discriminator(x)
+dcgan = Model(inputs, outputs)
+dcgan.summary()
+
+dcgan.compile(discriminator_optimizer, loss)
+
+```
+### Training the DCGAN model ###
+```
+EPOCHS = 100
+BATCH_SIZE = 128
+NUM_EXAMPLES_TO_GENERATE = 16
+
+# We will reuse this seed overtime (so it's easier)
+# to visualize progress in the animated GIF)
+seed = tf.random.normal([NUM_EXAMPLES_TO_GENERATE, LATENT_DIM])
+
+for epoch in range(EPOCHS):
+    for i in range(0, train_images.shape[0], BATCH_SIZE):
+        noise = tf.random.normal([BATCH_SIZE, LATENT_DIM])
+        generated_images = generator(noise, training=False)
+
+        real_images = train_images[i:i + BATCH_SIZE]
+        combined_images = tf.concat([generated_images, real_images], axis=0)
+
+        labels = tf.concat([tf.ones((BATCH_SIZE, 1)), tf.zeros((real_images.shape[0], 1))], axis=0)
+
+        # Add random noise to the labels - important trick!
+        labels += 0.05 * tf.random.uniform(labels.shape)
+
+        # Train the discriminator
+        with tf.GradientTape() as tape:
+            predictions = discriminator(combined_images, training=True)
+            d_loss = loss(labels, predictions)
+        grads = tape.gradient(d_loss, discriminator.trainable_weights)
+        discriminator_optimizer.apply_gradients(zip(grads, discriminator.trainable_weights))
+
+        # Train the generator
+        noise = tf.random.normal([BATCH_SIZE, LATENT_DIM])
+        misleading_labels = tf.zeros((BATCH_SIZE, 1))
+
+        with tf.GradientTape() as tape:
+            predictions = dcgan(noise, training=True)
+            g_loss = loss(misleading_labels, predictions)
+        grads = tape.gradient(g_loss, dcgan.trainable_weights)
+        generator_optimizer.apply_gradients(zip(grads, dcgan.trainable_weights))
+```
+### Generating new images ###
+```
+
 ## Work 1/4 Generate Cursive Font  ##
 
 Epoch 10/70
