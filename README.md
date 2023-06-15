@@ -18,8 +18,10 @@ In addition, this technology may also inspire our thinking about artificial inte
 In conclusion, generating Eastern and Western handwriting fonts and painting images through DCGAN is not only a project with practical application value, but also a challenge and expansion of our own cognition, it's an interesting experiment where art and technology intersect.
 
 ## Dataset Information ##
-![536239f47f1ff43b2149aeaa258d0ff](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/40f37cbf-7cdf-4cca-a6fd-8b4123cc039f)
-![5068f60fb6f46a3116f4635324b2128](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/acf5d436-8abd-497a-b4dd-d407f3971b76)
+
+![WeChat Photo Editor_20230616002030 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2cdb505e-6845-477c-8442-59a18821d2f4)
+![WeChat Photo Editor_20230616001841 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d1e7353c-a7af-4bbc-922c-b57dbc880b26)
+
 
 ##  Main Code Structure and Explanation ##
 
