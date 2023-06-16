@@ -276,6 +276,7 @@ Initialize the DCGAN model
 dcgan = DCGAN(generator=generator, discriminator=discriminator, latent_dim=LATENT_DIM)
 ```
 Compile the DCGAN model
+
 ![974817d08d476348a9e90f806bc52d3](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2708f6c3-77c3-4fe1-9cfc-9f5a0139d091)
 
 ```
