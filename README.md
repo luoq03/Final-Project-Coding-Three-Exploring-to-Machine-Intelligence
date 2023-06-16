@@ -1,8 +1,9 @@
 # Generating Cursive Font / Oriental Aesthetic Landscape Painting/ English Handwritten Font / Oil Painting Color Landscape Painting images through DCGAN
-![download (30)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/30714a80-25d5-4f53-a271-d5048375f626)
-![download (31)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/e9be1380-69cb-4e3d-abd4-c41a47e4c848)
-![download (32)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/a8f4bca8-e564-43b8-b740-736c582bf783)
-![download (33)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/83f23957-f9e4-43da-8c73-93f1082e8d09)
+![download (34)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/1ff7e47c-9c6d-4420-b256-a83069762d40)
+![download (35)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/7e517435-0287-49dc-8711-44d4e9affc9f)
+![download (36)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/9362e157-054b-4af3-a5a8-c8238ed7b572)
+![download (37)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/26d7dc65-2367-4a20-88af-764400b32b13)
+
 
 ## Inspiration ##
 
