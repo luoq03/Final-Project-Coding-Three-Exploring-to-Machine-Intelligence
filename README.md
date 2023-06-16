@@ -40,15 +40,15 @@ https://www.kaggle.com/datasets/robgonsalves/impressionistlandscapespaintings
 Since the foundational code for the four works is the same, I will explain them together here.
 ### In the following code, I made some attempts to improve the code: ###
 
-1.I used more convolutional layers and deeper networks, or repeated training with the same network depth to enhance the quality of the generated outputs.
+1. I used more convolutional layers and deeper networks, or repeated training with the same network depth to enhance the quality of the generated outputs.
 
-2.I tried using different optimizers and adjusting the values of the loss function.
+2. I tried using different optimizers and adjusting the values of the loss function.
 
-3.I optimized the dataset to have better performance during model training, such as using higher resolution images.
+3. I optimized the dataset to have better performance during model training, such as using higher resolution images.
 
-4.I experimented with using more epochs for training.
+4. I experimented with using more epochs for training.
 
-5.I tried adjusting the parameter for label smoothing.
+5. I tried adjusting the parameter for label smoothing.
 
 ###  Import necessary libraries and modules ###
 
