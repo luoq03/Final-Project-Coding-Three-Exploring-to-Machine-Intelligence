@@ -37,6 +37,7 @@ https://www.kaggle.com/datasets/robgonsalves/impressionistlandscapespaintings
 
 
 ##  Main Code Structure and Explanation ##
+Since the foundational code for the four tasks is the same, I will explain them together here.
 
 ###  Import necessary libraries and modules ###
 
