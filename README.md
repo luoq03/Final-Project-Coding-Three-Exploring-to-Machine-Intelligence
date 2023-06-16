@@ -18,7 +18,7 @@ In addition, this technology may also inspire our thinking about artificial inte
 
 In conclusion, generating Eastern and Western handwriting fonts and painting images through DCGAN is not only a project with practical application value, but also a challenge and expansion of our own cognition, it's an interesting experiment where art and technology intersect.
 
-## Project File Download URL: ##
+## Project File Download URL (Google Drive) : ##
 
 ### Work 1/4 Generate Cursive Font  ###
 
