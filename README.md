@@ -563,3 +563,5 @@ https://gsurma.medium.com/image-generator-drawing-cartoons-with-generative-adver
 https://www.kaggle.com/code/greg115/image-generator-dcgan-the-simpsons-dataset
 
 https://arxiv.org/abs/1701.00160
+
+The completion of the project involved referencing suggestions provided by ChatGPT when debugging and improving the code.
