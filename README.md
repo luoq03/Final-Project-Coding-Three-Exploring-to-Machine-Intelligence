@@ -38,6 +38,17 @@ https://www.kaggle.com/datasets/robgonsalves/impressionistlandscapespaintings
 
 ##  Main Code Structure and Explanation ##
 Since the foundational code for the four works is the same, I will explain them together here.
+### In the following code, I made some attempts to improve the code: ###
+
+1.I used more convolutional layers and deeper networks, or repeated training with the same network depth to enhance the quality of the generated outputs.
+
+2.I tried using different optimizers and adjusting the values of the loss function.
+
+3.I optimized the dataset to have better performance during model training, such as using higher resolution images.
+
+4.I experimented with using more epochs for training.
+
+5.I tried adjusting the parameter for label smoothing.
 
 ###  Import necessary libraries and modules ###
 
@@ -243,7 +254,7 @@ class DCGAN(keras.Model):
         
         return {'d_loss': self.d_loss_metric.result(), 'g_loss': self.g_loss_metric.result()}
 ```
- Plot some images for each epoch
+ Plot some images for each epoch （The generated images are then denormalized by multiplying by 127.5 and adding 127.5 to bring the pixel values back to the range of [0, 255]）
 ```
 class DCGANMonitor(keras.callbacks.Callback):
     def __init__(self, num_imgs=25, latent_dim=100):
@@ -275,7 +286,7 @@ Initialize the DCGAN model
 ```
 dcgan = DCGAN(generator=generator, discriminator=discriminator, latent_dim=LATENT_DIM)
 ```
-Compile the DCGAN model
+Compile the DCGAN model（I attempted to use different optimizers and adjust the value of beta_1.）
 
 ![974817d08d476348a9e90f806bc52d3](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2708f6c3-77c3-4fe1-9cfc-9f5a0139d091)
 
@@ -286,6 +297,7 @@ dcgan.compile(g_optimizer=RMSprop(learning_rate=G_LR), d_optimizer=RMSprop(learn
 loss_fn=MeanSquaredError())
 ```
 ### Training the DCGAN model ###
+I attempted to adjust the value of different EPOCHs.
 ```
 N_EPOCHS = 70
 dcgan.fit(train_images, epochs=N_EPOCHS, callbacks=[DCGANMonitor()])
