@@ -367,9 +367,8 @@ Epoch 70/70
 
 ### **Comparison between Original Dataset and Generated Data** ###
 
-![246198676-1884c9ba-bdb7-4a8c-958b-3d8d03e44e84 (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/d7078488-85dd-44c9-bc4a-dea034d5d2fc)
-![246198689-ccec5214-3d7a-4c79-aea2-43f2cdd72bcd (1)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/9abfcf62-612c-4299-884c-36cf2ad47830)
-
+![246198689-ccec5214-3d7a-4c79-aea2-43f2cdd72bcd (2)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/897a2985-bed5-4e7a-8074-5c0b42967668)
+![246198676-1884c9ba-bdb7-4a8c-958b-3d8d03e44e84 (2)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/42b1c73c-6e4a-412b-862d-6fe6f6ac0bec)
 
 ## Work 2/4 Generate Oriental Aesthetic Landscape Painting  ##
 
