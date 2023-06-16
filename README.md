@@ -55,7 +55,7 @@ https://www.kaggle.com/datasets/robgonsalves/impressionistlandscapespaintings
 
 ##  Main Code Structure and Explanation ##
 Since the foundational code for the four works is the same, I will explain them together here.
-** ### In the following code, I made some attempts to improve the code:  ###**
+### **In the following code, I made some attempts to improve the code:**  ###
 
 **1. I used more convolutional layers and deeper networks, or repeated training with the same network depth to enhance the quality of the generated outputs.**
 
