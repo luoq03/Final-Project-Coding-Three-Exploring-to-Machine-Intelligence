@@ -139,7 +139,11 @@ train_images = (train_images - 127.5) / 127.5
 ```
 
 ### Create Generator & Discriminator Models ###
-Initialize the required values to the variables
+Initialize the required values to the variables: 
+
+The WEIGHT_INIT variable represents the weight initializer used to initialize the weights of the neural network model. In this case, it is set to a random normal initializer with a mean of 0.0 and a standard deviation of 0.02.
+
+The CHANNELS variable represents the number of channels in the image data. In this case, it is set to 3, indicating that the images are in RGB color format.
 ```
 LATENT_DIM = 100
 WEIGHT_INIT = keras.initializers.RandomNormal(mean=0.0, stddev=0.02)
@@ -161,7 +165,9 @@ model.add(layers.Conv2D(CHANNELS, (4, 4), padding='same', kernel_initializer=WEI
 ```
 ![3afb4c0a29e05c80f6ad102767e13c0](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/80925c69-f6aa-4658-a7d6-9681af243d71)
 
-Discriminator model : classify the image from the generator to check whether it real (or) fake images
+Discriminator model : classify the image from the generator to check whether it real (or) fake images.
+
+(64, 64, 3) is the dimensions of the image , the first two dimensions represent the spatial dimensions (height and width), and the last dimension represents the number of channels
 ```
 model = Sequential(name='discriminator')
 input_shape = (64, 64, 3)
@@ -303,7 +309,7 @@ Initialize the DCGAN model
 ```
 dcgan = DCGAN(generator=generator, discriminator=discriminator, latent_dim=LATENT_DIM)
 ```
-Compile the DCGAN model（I attempted to use different optimizers and adjust the value of beta_1.）
+Compile the DCGAN model,（I attempted to use different optimizers and adjust the value of beta_1.）BinaryCrossentropy is used for loss function
 
 ![20a7d7dcdf6dbd2a44263833ed29ba3](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/6b5d37e7-66e2-465c-b83e-1544088c24c4)
 
