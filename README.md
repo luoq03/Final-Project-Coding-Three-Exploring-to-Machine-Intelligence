@@ -1,4 +1,4 @@
-# Generating Eastern and Western Handwriting Fonts and Painting images through DCGAN
+# Generating Cursive Font / Oriental Aesthetic Landscape Painting/ English Handwritten Font / Oil Painting Color Landscape Painting images through DCGAN
 
 ![download (20)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/b88c359e-9f42-44ea-b345-f33995f59690)
 ![download (21)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/fba081ac-eb42-47f8-97fa-656016018cb7)
