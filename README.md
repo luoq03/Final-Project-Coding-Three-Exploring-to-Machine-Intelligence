@@ -305,7 +305,7 @@ dcgan = DCGAN(generator=generator, discriminator=discriminator, latent_dim=LATEN
 ```
 Compile the DCGAN model（I attempted to use different optimizers and adjust the value of beta_1.）
 
-![974817d08d476348a9e90f806bc52d3](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/2708f6c3-77c3-4fe1-9cfc-9f5a0139d091)
+![20a7d7dcdf6dbd2a44263833ed29ba3](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/6b5d37e7-66e2-465c-b83e-1544088c24c4)
 
 ```
 D_LR = 0.0001 
