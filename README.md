@@ -135,16 +135,34 @@ model.add(layers.Conv2D(CHANNELS, (4, 4), padding='same', kernel_initializer=WEI
 Discriminator model : classify the image from the generator to check whether it real (or) fake images
 ```
 model = Sequential(name='discriminator')
-model.add(layers.Conv2D(64, (4, 4), strides=(2, 2), padding='same', input_shape=[64, 64, CHANNELS], kernel_initializer=WEIGHT_INIT))
-model.add(layers.LeakyReLU(alpha=0.2))
-model.add(layers.Conv2D(128, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
-model.add(layers.LeakyReLU(alpha=0.2))
-model.add(layers.Conv2D(256, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
-model.add(layers.LeakyReLU(alpha=0.2))
-model.add(layers.Conv2D(512, (4, 4), strides=(2, 2), padding='same', kernel_initializer=WEIGHT_INIT))
-model.add(layers.LeakyReLU(alpha=0.2))
+input_shape = (64, 64, 3)
+alpha = 0.2
+
+# create conv layers
+model.add(layers.Conv2D(64, (4, 4), strides=(2, 2), padding='same', input_shape=input_shape))
+model.add(layers.BatchNormalization())
+model.add(layers.LeakyReLU(alpha=alpha))
+
+model.add(layers.Conv2D(128, (4, 4), strides=(2, 2), padding='same', input_shape=input_shape))
+model.add(layers.BatchNormalization())
+model.add(layers.LeakyReLU(alpha=alpha))
+
+model.add(layers.Conv2D(256, (4, 4), strides=(2, 2), padding='same', input_shape=input_shape))
+model.add(layers.BatchNormalization())
+model.add(layers.LeakyReLU(alpha=alpha))
+
+model.add(layers.Conv2D(256, (4, 4), strides=(2, 2), padding='same', input_shape=input_shape))
+model.add(layers.BatchNormalization())
+model.add(layers.LeakyReLU(alpha=alpha))
+
 model.add(layers.Flatten())
-model.add(layers.Dense(1))
+model.add(layers.Dropout(0.3))
+
+# output class
+model.add(layers.Dense(1, activation='sigmoid'))
+
+discriminator = model
+discriminator.summary()
 ```
 ![fab7b6d92b75af8c8f8a138219da6f9](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/917115dc-cb51-471e-bc9d-2379e4a760c0)
 
