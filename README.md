@@ -54,7 +54,13 @@ https://www.kaggle.com/datasets/robgonsalves/impressionistlandscapespaintings
 
 
 ##  Main Code Structure and Explanation ##
-I followed a video tutorial on YouTube to write the basic code and made modifications based on it.（https://www.youtube.com/watch?v=HxD-M-jTmEA&t=961s）
+I followed a video tutorial on YouTube to write the basic code and made modifications based on it.
+
+（https://www.youtube.com/watch?v=HxD-M-jTmEA&t=961s）
+
+In addition, I also explored other related projects , such as generating faces of the Simpsons using DCGAN
+
+Furthermore, I sought assistance from ChatGPT in improving and debugging the code.
 
 Since the foundational code for the four works is the same, I will explain them together here.
 
