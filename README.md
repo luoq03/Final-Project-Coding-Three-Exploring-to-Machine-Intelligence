@@ -4,7 +4,7 @@
 ![download (40)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/4ce12b6a-ef14-40dc-bfcc-a68cd09c044c)
 ![download (41)](https://github.com/luoq03/Final-Project-Coding-Three-Exploring-to-Machine-Intelligence/assets/57748663/6c681593-0390-403a-8748-ed4e12eda797)
 
-
+## Video link: https://youtu.be/IKmAkgz8sWs ##
 ## Inspiration ##
 
 In my view, generating Eastern and Western handwriting fonts and painting images through Deep Convolutional Generative Adversarial Networks is an innovative and inspiring idea. The use of this technology not only explores the infinite possibilities in the field of art, but also delves into two distinctly different cultural expressions.
