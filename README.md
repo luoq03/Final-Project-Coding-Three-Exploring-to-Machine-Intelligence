@@ -21,19 +21,19 @@ In conclusion, generating Eastern and Western handwriting fonts and painting ima
 
 ### Work 1/4 Generate Cursive Font  ###
 
-https://colab.research.google.com/drive/1FHlYZHw31qLUP2-qhhd5cd-q2w069f6v#scrollTo=ion3gKGJ084G
+https://colab.research.google.com/drive/1MKSlsi6VPJJHUWzstg7EmlbpaxdSL1hZ
 
 ### Work 2/4 Generate Oriental Aesthetic Landscape Painting  ###
 
-https://colab.research.google.com/drive/16Oq25cVU4FI5M6-3qJKyOLPQ-QqgMMat#scrollTo=7orlWJZNx978
+https://colab.research.google.com/drive/16Oq25cVU4FI5M6-3qJKyOLPQ-QqgMMat
 
 ### Work 3/4 Generate English Handwritten Font  ###
 
-https://colab.research.google.com/drive/1CkcOXvcGQ25E6_Iwd8EJoIR3HjdwgI2W#scrollTo=5pDuG1Kx0fW0
+https://colab.research.google.com/drive/1CkcOXvcGQ25E6_Iwd8EJoIR3HjdwgI2W
 
 ### Work 4/4 Generate Oil Painting Color Landscape Painting  ###
 
-https://colab.research.google.com/drive/1SELv1vqRPXpVQMQuMnt_etvRkw79PQGn#scrollTo=OReHnZSUzeOI
+https://colab.research.google.com/drive/1SELv1vqRPXpVQMQuMnt_etvRkw79PQGn
 
 ## Dataset Information ##
 
